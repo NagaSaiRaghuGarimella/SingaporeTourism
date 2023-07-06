@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="singapore.css">
+</head>
+<body>
+    <form action=""></form>
+    <div id="tourism">
+    <div id="travel">
+        <h2>Singapore Tourism</h2>
+        <table>
+            <tbody>
+                <tr>
+                    <td><label>Name</label></td>
+                    <td><input type="text" placeholder="Enter your Name"></td>
+                </tr>
+                <tr>
+                    <td><label>Phone no</label></td>
+                    <td><input type="number" placeholder="Enter your number"></td>
+                </tr>
+                <tr>
+                    <td><label>Email Id</label></td>
+                    <td><input type="text" placeholder="Email Id"></td>
+                </tr>
+                <tr>
+                    <td><label>Number of Persons</label></td>
+                    <td><input type="number" id="persons"></td>
+                </tr>
+                <tr>
+                    <td><label>Prefer Stay</label></td>
+                    <td><input type="radio" name="prefer" class="stay">Yes
+                        <input type="radio" name="prefer"class="stay" onclick="disableNoOfDaysStay()">No</td>
+                </tr>
+                <tr>
+                    <td><label>Number Of Days Stay</label></td>
+                    <td><input type="number" id="staying"></td>
+                </tr>
+                <tr>
+                    <td><label>Places you would like to visit</label></td>
+                    <td><input type="checkbox"  value="350$" class="visit">Places of Pilgrimage<br>
+                    <input type="checkbox"  value="430$" class="visit">Places of Heritage <br>
+                 <input type="checkbox"  value="780$" class="visit">Hills <br>
+                <input type="checkbox"  value="1200$" class="visit">Falls <br>
+                 <input type="checkbox"  value="270$" class="visit">Beach <br>
+                <input type="checkbox"  value="4500$" class="visit">Places of Adventures</td>
+                </tr>
+            </tbody>
+        </table>
+      <div id="button">
+        <button>Calculate Cost</button>
+      </div>
+      <div>
+        <p id="result" style="color:red; font-size: 2rem; font-weight:bold;"></p>
+        <p id="result1" style="color:red; font-size: 2rem; font-weight:bold;"></p>
+        <p id="result2" style="color:red; font-size: 2rem; font-weight:bold;"></p>
+        <p id="result3" style="color:red; font-size: 2rem; font-weight:bold;"></p>
+      </div>
+</div>
+</div>
+</form>
+<script src="singapore.js"></script>
+</body>
+</html>
